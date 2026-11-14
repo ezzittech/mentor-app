@@ -1,0 +1,149 @@
+{
+  "common": {
+    "platformName": "مسار منتورز",
+    "platformTagline": "رحلتك في التطوير المهني تبدأ هنا",
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ",
+    "retry": "إعادة المحاولة",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "view": "عرض",
+    "search": "بحث",
+    "filter": "تصفية",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "submit": "إرسال",
+    "close": "إغلاق",
+    "yes": "نعم",
+    "no": "لا",
+    "or": "أو",
+    "and": "و",
+    "noResults": "لا توجد نتائج",
+    "emptyState": "لا يوجد محتوى بعد"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "mentors": "المرشدون",
+    "howItWorks": "كيف تعمل المنصة",
+    "pricing": "الأسعار",
+    "about": "من نحن",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "dashboard": "لوحة التحكم",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب جديد",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "fullName": "الاسم الكامل",
+    "loginButton": "دخول",
+    "registerButton": "إنشاء الحساب",
+    "sendResetLink": "إرسال رابط الاستعادة",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "noAccount": "ليس لديك حساب؟",
+    "loginHere": "سجل الدخول هنا",
+    "registerHere": "أنشئ حساباً هنا",
+    "checkEmail": "تحقق من بريدك الإلكتروني",
+    "resetLinkSent": "تم إرسال رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني",
+    "errors": {
+      "invalidEmail": "البريد الإلكتروني غير صحيح",
+      "passwordTooShort": "كلمة المرور يجب أن تكون 8 أحرف على الأقل",
+      "passwordMismatch": "كلمتا المرور غير متطابقتين",
+      "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+      "emailAlreadyUsed": "هذا البريد الإلكتروني مستخدم بالفعل",
+      "genericError": "حدث خطأ، يرجى المحاولة مرة أخرى"
+    }
+  },
+  "roles": {
+    "guest": "زائر",
+    "mentee": "متدرب",
+    "mentor": "مرشد",
+    "supervisor": "مشرف",
+    "program_manager": "مدير برنامج",
+    "admin": "مسؤول",
+    "support": "دعم"
+  },
+  "home": {
+    "heroTitle": "ابنِ مستقبلك المهني",
+    "heroSubtitle": "مع مرشد محترف يرافقك في كل خطوة من رحلتك التطويرية",
+    "heroCta": "ابدأ رحلتك الآن",
+    "secondaryCta": "استكشف المرشدين",
+    "howItWorksTitle": "كيف تعمل المنصة",
+    "step1Title": "سجّل وأكمل تقييمك",
+    "step1Desc": "أنشئ حسابك وأجب على أسئلة التقييم لنفهم احتياجاتك وأهدافك",
+    "step2Title": "اختر مرشدك",
+    "step2Desc": "استعرض المرشدين المتخصصين واختر من يناسب أهدافك وجدولك",
+    "step3Title": "نفّذ خطتك",
+    "step3Desc": "اعمل على خطة تطوير مخصصة بأهداف ومهام وجلسات إرشاد منتظمة",
+    "statsTitle": "أرقام تعكس أثراً حقيقياً",
+    "statsMentors": "مرشد متخصص",
+    "statsMentees": "متدرب نشط",
+    "statsGoals": "هدف مكتمل"
+  },
+  "dashboard": {
+    "welcome": "أهلاً، {{name}}",
+    "overview": "نظرة عامة",
+    "myPlan": "خطتي التطويرية",
+    "myTasks": "مهامي",
+    "mySessions": "جلساتي",
+    "myMentor": "مرشدي",
+    "progress": "التقدم",
+    "upcomingSession": "الجلسة القادمة",
+    "pendingTasks": "مهام معلقة",
+    "completedGoals": "أهداف مكتملة"
+  },
+  "mentors": {
+    "browse": "استعرض المرشدين",
+    "viewProfile": "عرض الملف",
+    "requestMentorship": "طلب إرشاد",
+    "specializations": "التخصصات",
+    "skills": "المهارات",
+    "languages": "اللغات",
+    "availability": "التوفر",
+    "packages": "الباقات",
+    "reviews": "التقييمات",
+    "verified": "موثق",
+    "pending": "بانتظار الاعتماد"
+  },
+  "plan": {
+    "title": "خطة التطوير",
+    "status": {
+      "draft": "مسودة",
+      "pending_approval": "بانتظار الموافقة",
+      "active": "نشطة",
+      "paused": "معلقة",
+      "completed": "مكتملة",
+      "cancelled": "ملغاة"
+    },
+    "approvePrompt": "راجع خطتك ووافق عليها للبدء",
+    "approve": "الموافقة على الخطة",
+    "requestChange": "طلب تعديل"
+  },
+  "tasks": {
+    "status": {
+      "not_started": "لم تبدأ",
+      "in_progress": "قيد التنفيذ",
+      "submitted": "مُرسلة للمراجعة",
+      "needs_revision": "تحتاج تعديلاً",
+      "completed": "مكتملة",
+      "cancelled": "ملغاة"
+    }
+  },
+  "errors": {
+    "notFound": "الصفحة غير موجودة",
+    "unauthorized": "غير مصرح لك بالوصول",
+    "serverError": "خطأ في الخادم",
+    "networkError": "خطأ في الاتصال بالشبكة"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "common": {
+    "platformName": "MasarMentors",
+    "platformTagline": "Your professional development journey starts here",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "noResults": "No results found",
+    "emptyState": "Nothing here yet"
+  },
+  "nav": {
+    "home": "Home",
+    "mentors": "Mentors",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "about": "About Us",
+    "login": "Log In",
+    "register": "Sign Up",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Log Out"
+  },
+  "auth": {
+    "login": "Log In",
+    "register": "Create New Account",
+    "forgotPassword": "Forgot your password?",
+    "resetPassword": "Reset Password",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "fullName": "Full Name",
+    "loginButton": "Log In",
+    "registerButton": "Create Account",
+    "sendResetLink": "Send Reset Link",
+    "alreadyHaveAccount": "Already have an account?",
+    "noAccount": "Don't have an account?",
+    "loginHere": "Log in here",
+    "registerHere": "Sign up here",
+    "checkEmail": "Check your email",
+    "resetLinkSent": "A password reset link has been sent to your email",
+    "errors": {
+      "invalidEmail": "Invalid email address",
+      "passwordTooShort": "Password must be at least 8 characters",
+      "passwordMismatch": "Passwords do not match",
+      "invalidCredentials": "Invalid email or password",
+      "emailAlreadyUsed": "This email is already in use",
+      "genericError": "Something went wrong, please try again"
+    }
+  },
+  "roles": {
+    "guest": "Guest",
+    "mentee": "Mentee",
+    "mentor": "Mentor",
+    "supervisor": "Supervisor",
+    "program_manager": "Program Manager",
+    "admin": "Admin",
+    "support": "Support"
+  },
+  "home": {
+    "heroTitle": "Build Your Professional Future",
+    "heroSubtitle": "With an expert mentor guiding you every step of your development journey",
+    "heroCta": "Start Your Journey",
+    "secondaryCta": "Browse Mentors",
+    "howItWorksTitle": "How It Works",
+    "step1Title": "Register & Complete Assessment",
+    "step1Desc": "Create your account and answer assessment questions so we can understand your needs and goals",
+    "step2Title": "Choose Your Mentor",
+    "step2Desc": "Browse specialized mentors and choose the one that fits your goals and schedule",
+    "step3Title": "Execute Your Plan",
+    "step3Desc": "Work through a personalized development plan with goals, tasks, and regular mentoring sessions",
+    "statsTitle": "Numbers That Reflect Real Impact",
+    "statsMentors": "Expert Mentors",
+    "statsMentees": "Active Mentees",
+    "statsGoals": "Completed Goals"
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}",
+    "overview": "Overview",
+    "myPlan": "My Development Plan",
+    "myTasks": "My Tasks",
+    "mySessions": "My Sessions",
+    "myMentor": "My Mentor",
+    "progress": "Progress",
+    "upcomingSession": "Upcoming Session",
+    "pendingTasks": "Pending Tasks",
+    "completedGoals": "Completed Goals"
+  },
+  "mentors": {
+    "browse": "Browse Mentors",
+    "viewProfile": "View Profile",
+    "requestMentorship": "Request Mentorship",
+    "specializations": "Specializations",
+    "skills": "Skills",
+    "languages": "Languages",
+    "availability": "Availability",
+    "packages": "Packages",
+    "reviews": "Reviews",
+    "verified": "Verified",
+    "pending": "Pending Verification"
+  },
+  "plan": {
+    "title": "Development Plan",
+    "status": {
+      "draft": "Draft",
+      "pending_approval": "Pending Approval",
+      "active": "Active",
+      "paused": "Paused",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "approvePrompt": "Review your plan and approve it to get started",
+    "approve": "Approve Plan",
+    "requestChange": "Request Change"
+  },
+  "tasks": {
+    "status": {
+      "not_started": "Not Started",
+      "in_progress": "In Progress",
+      "submitted": "Submitted for Review",
+      "needs_revision": "Needs Revision",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    }
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "unauthorized": "You are not authorized to access this page",
+    "serverError": "Server error",
+    "networkError": "Network connection error"
+  }
+}
