@@ -2,21 +2,14 @@ import type { NextConfig } from "next";
 
 /**
  * MasarMentors - Next.js Configuration
- * 
- * ARCHITECTURAL DECISION (Phase 0):
- * - output: 'export' enables Static Site Generation (SSG) for GitHub Pages hosting
- * - All auth is handled client-side via Supabase browser client
- * - No SSR, no @supabase/ssr, no server-side cookie sessions
- * - Supabase RLS is the primary data security layer
  */
 const nextConfig: NextConfig = {
   output: "export",
+  basePath: "/mentor-app", // 👈 هذا السطر ضروري جداً لكي تعمل الاستضافة على GitHub Pages
   trailingSlash: true,
   images: {
     unoptimized: true, // Required for static export
   },
-  // Note: cacheComponents and partialPrefetching are disabled for static export
-  // PPR (Partial Prerendering) is incompatible with output: 'export'
   turbopack: {
     rules: {
       "*.css": {
